@@ -1,0 +1,7 @@
+.tarea-lista-contenedor {
+  display: flex; /* Mostrar como contenedor flexible */
+  flex-wrap: wrap; /* Envolver los elementos en varias líneas */
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  margin-top: 15px; /* Margen superior del contenedor de la lista de tareas */
+  width: 500px; /* Ancho del contenedor de la lista de tareas */
+}

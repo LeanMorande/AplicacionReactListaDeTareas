@@ -1,0 +1,53 @@
+.tarea-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Estilos para el formulario de tareas */
+  /* El formulario se muestra como un contenedor flexible (flex) */
+  /* Los elementos internos se envuelven (wrap) si no caben en una línea */
+  /* Se alinean verticalmente (align-items) y horizontalmente (justify-content) en el centro */
+  
+  .tarea-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid green;
+    outline: none;
+  }
+  /* Estilos para el input de tarea */
+  /* Anchura fija de 350px */
+  /* Tamaño de fuente de 18px */
+  /* Fondo blanco */
+  /* Relleno (padding) en las posiciones superior, derecha e inferior de 14px y en la izquierda de 16px */
+  /* Borde redondeado en la esquina superior izquierda (border-radius) */
+  /* Borde de 2px de ancho y de color verde */
+  /* Sin contorno (outline) al obtener el foco */
+  
+  .tarea-boton {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: green;
+    color: white;
+    text-transform: capitalize;
+  }
+  /* Estilos para el botón de tarea */
+  /* Relleno (padding) de 16px */
+  /* Tamaño de fuente de 18px */
+  /* Fuente de la familia Roboto o sans-serif */
+  /* Sin borde */
+  /* Borde redondeado en la esquina superior derecha (border-radius) */
+  /* Cursor en forma de puntero */
+  /* Sin contorno (outline) al obtener el foco */
+  /* Fondo verde */
+  /* Texto en color blanco */
+  /* Transformación del texto en mayúsculas (capitalize) */
+  

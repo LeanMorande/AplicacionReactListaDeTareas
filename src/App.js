@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import freeCodeCamplogo from "../src/Images/fcc-logo.jpg";
+import ListaDeTareas from "./Components/ListaDeTareas";
 
 function App() {
+  // Componente funcional principal de la aplicación
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="aplicacion-tareas">
+      {/* Contenedor principal de la aplicación de tareas */}
+
+      <div className='free-code-camp-logo-contenedor'>
+        {/* Contenedor del logo de freeCodeCamp */}
+
+        <img 
+          src={freeCodeCamplogo} 
+          className='free-code-camp-logo'
+          alt="FreeCodeCamp Logo" 
+        />
+        {/* Logo de freeCodeCamp */}
+      </div>
+
+      <div className='tareas-lista-principal'>
+        {/* Contenedor de la lista de tareas principal */}
+
+        <h1>Mis Tareas</h1>
+        {/* Título de la lista de tareas */}
+
+        <ListaDeTareas />
+        {/* Componente ListaDeTareas que muestra la lista de tareas */}
+      </div>
     </div>
   );
 }

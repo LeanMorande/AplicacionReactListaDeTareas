@@ -1,0 +1,45 @@
+.tarea-contenedor {
+  width: 500px; /* Ancho del contenedor de la tarea */
+  min-height: 65px; /* Altura mínima del contenedor de la tarea */
+  background-color: black; /* Color de fondo del contenedor de la tarea */
+  margin: 5px 0; /* Margen superior e inferior del contenedor de la tarea */
+  padding: 8px 15px 8px 20px; /* Relleno interno del contenedor de la tarea */
+  display: flex; /* Mostrar como contenedor flexible */
+  justify-content: space-between; /* Distribución del espacio entre elementos */
+  align-items: center; /* Alineación vertical de los elementos */
+  border-radius: 7px; /* Radio de borde del contenedor de la tarea */
+  border: 1px solid white; /* Borde del contenedor de la tarea */
+  cursor: pointer; /* Tipo de cursor al pasar por encima del contenedor de la tarea */
+}
+
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #1b1b32; /* Color de fondo para el primer elemento de cada grupo de 3 tareas */
+}
+
+.tarea-contenedor:nth-child(3n + 2) {
+  background-color: #333353; /* Color de fondo para el segundo elemento de cada grupo de 3 tareas */
+}
+
+.tarea-contenedor:nth-child(3n + 3) {
+  background-color: #5a5a82; /* Color de fondo para el tercer elemento de cada grupo de 3 tareas */
+}
+
+.tarea-texto {
+  width: 100%; /* Ancho del texto dentro del contenedor de la tarea */
+  height: 100%; /* Altura del texto dentro del contenedor de la tarea */
+  font-size: 20px; /* Tamaño de fuente del texto dentro del contenedor de la tarea */
+  display: flex; /* Mostrar como contenedor flexible */
+  align-items: center; /* Alineación vertical de los elementos dentro del contenedor de la tarea */
+  overflow-wrap: anywhere; /* Control de desbordamiento del texto dentro del contenedor de la tarea */
+}
+
+.tarea-icono {
+  width: 25px; /* Ancho del ícono dentro del contenedor de la tarea */
+  height: 25px; /* Altura del ícono dentro del contenedor de la tarea */
+  margin: 5px; /* Margen alrededor del ícono dentro del contenedor de la tarea */
+}
+
+.tarea-contenedor.completada {
+  background-color: rgb(59, 7, 59); /* Color de fondo para el contenedor de la tarea completada */
+  text-decoration: line-through; /* Estilo de línea tachada para el texto dentro del contenedor de la tarea completada */
+}
