@@ -1,17 +1,16 @@
 .tarea-contenedor {
-  width: 500px; /* Ancho del contenedor de la tarea */
+  width: 100%; /* Ancho del contenedor de la tarea */
   min-height: 65px; /* Altura mínima del contenedor de la tarea */
   background-color: black; /* Color de fondo del contenedor de la tarea */
   margin: 5px 0; /* Margen superior e inferior del contenedor de la tarea */
   padding: 8px 15px 8px 20px; /* Relleno interno del contenedor de la tarea */
   display: flex; /* Mostrar como contenedor flexible */
-  justify-content: space-between; /* Distribución del espacio entre elementos */
+  justify-content: center; /* Distribución del espacio entre elementos */
   align-items: center; /* Alineación vertical de los elementos */
   border-radius: 7px; /* Radio de borde del contenedor de la tarea */
   border: 1px solid white; /* Borde del contenedor de la tarea */
   cursor: pointer; /* Tipo de cursor al pasar por encima del contenedor de la tarea */
 }
-
 .tarea-contenedor:nth-child(3n + 1) {
   background-color: #1b1b32; /* Color de fondo para el primer elemento de cada grupo de 3 tareas */
 }
@@ -42,4 +41,14 @@
 .tarea-contenedor.completada {
   background-color: rgb(59, 7, 59); /* Color de fondo para el contenedor de la tarea completada */
   text-decoration: line-through; /* Estilo de línea tachada para el texto dentro del contenedor de la tarea completada */
+}
+
+/* Media queries para tamaños de pantalla pequeños (por ejemplo, dispositivos móviles) */
+
+@media screen and (max-width: 400px) {
+  .tarea-contenedor {
+    width: 80%; /* Ancho del contenedor de la tarea en dispositivos móviles */
+    margin-left: auto; /* Centrar el contenedor de la tarea horizontalmente */
+    margin-right: auto;
+  }
 }

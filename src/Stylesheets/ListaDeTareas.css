@@ -3,5 +3,14 @@
   flex-wrap: wrap; /* Envolver los elementos en varias líneas */
   justify-content: center; /* Centrar los elementos horizontalmente */
   margin-top: 15px; /* Margen superior del contenedor de la lista de tareas */
-  width: 500px; /* Ancho del contenedor de la lista de tareas */
+  width: 80%; /* Ancho del 80% del viewport */
+  max-width: 400px; /* Ancho máximo de 400px */
 }
+
+@media (min-width: 401px) {
+  /* Estilos adicionales para anchos mayores a 400px */
+  .tarea-lista-contenedor {
+    width: 400px; /* Ancho fijo de 400px */
+  }
+}
+
