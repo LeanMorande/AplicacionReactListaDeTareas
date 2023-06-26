@@ -1,5 +1,5 @@
 import './App.css';
-import freeCodeCamplogo from "../src/Images/fcc-logo.jpg";
+import NotepadLogo from "../src/Images/notepad.png";
 import ListaDeTareas from "./Components/ListaDeTareas";
 
 function App() {
@@ -9,22 +9,29 @@ function App() {
     <div className="aplicacion-tareas">
       {/* Contenedor principal de la aplicación de tareas */}
 
-      <div className='free-code-camp-logo-contenedor'>
-        {/* Contenedor del logo de freeCodeCamp */}
+      <div className='notepad-logo-contenedor'>
+        {/* Contenedor del logo  */}
 
         <img 
-          src={freeCodeCamplogo} 
-          className='free-code-camp-logo'
-          alt="FreeCodeCamp Logo" 
+          src={NotepadLogo} 
+          className='notepad-logo'
+          alt="Notepad Logo" 
         />
-        {/* Logo de freeCodeCamp */}
+        {/* Logo notepad */}
+        <h1>Mis Tareas</h1>
+
+        <img 
+          src={NotepadLogo} 
+          className='notepad-logo'
+          alt="Notepad Logo" 
+        />
+      
       </div>
 
       <div className='tareas-lista-principal'>
         {/* Contenedor de la lista de tareas principal */}
 
-        <h1>Mis Tareas</h1>
-        {/* Título de la lista de tareas */}
+        
 
         <ListaDeTareas />
         {/* Componente ListaDeTareas que muestra la lista de tareas */}

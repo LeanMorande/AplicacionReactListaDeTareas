@@ -1,10 +1,13 @@
+
 .tarea-lista-contenedor {
   display: flex; /* Mostrar como contenedor flexible */
   flex-wrap: wrap; /* Envolver los elementos en varias líneas */
   justify-content: center; /* Centrar los elementos horizontalmente */
-  margin-top: 15px; /* Margen superior del contenedor de la lista de tareas */
+  margin-top: 10px; /* Margen superior del contenedor de la lista de tareas */
   width: 80%; /* Ancho del 80% del viewport */
   max-width: 400px; /* Ancho máximo de 400px */
+  margin-left: auto; /* Centrar horizontalmente el contenedor */
+  margin-right: auto; /* Centrar horizontalmente el contenedor */
 }
 
 @media (min-width: 401px) {

@@ -37,14 +37,14 @@ function TareaFormulario(props) {
       <input
         className="tarea-input"
         type="text"
-        placeholder="Agrega una nueva tarea..."
+        placeholder="Agrega nueva tarea..."
         name="texto"
         id={inputId} // Asignar el ID único al input
         onChange={manejarCambio} // Asociar la función manejarCambio al evento onChange del input
         value={input} // Establecer el valor actual del input
       />
 
-      <button className="tarea-boton">Agregar Tarea</button>
+      <button className="tarea-boton">+</button>
       {/* Botón para enviar el formulario */}
     </form>
   );

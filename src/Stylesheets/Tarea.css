@@ -33,9 +33,10 @@
 }
 
 .tarea-icono {
-  width: 25px; /* Ancho del ícono dentro del contenedor de la tarea */
-  height: 25px; /* Altura del ícono dentro del contenedor de la tarea */
+  width: 30px; /* Ancho del ícono dentro del contenedor de la tarea */
+  height: 30px; /* Altura del ícono dentro del contenedor de la tarea */
   margin: 5px; /* Margen alrededor del ícono dentro del contenedor de la tarea */
+color: red;
 }
 
 .tarea-contenedor.completada {
@@ -50,5 +51,7 @@
     width: 80%; /* Ancho del contenedor de la tarea en dispositivos móviles */
     margin-left: auto; /* Centrar el contenedor de la tarea horizontalmente */
     margin-right: auto;
+   
+
   }
 }

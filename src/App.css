@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,40 +7,47 @@
 html, body {
   color: aliceblue;
   background-color: black;
-  font-family: Lato,sans-serif;
-  margin-top: 40px;
+  font-family: Lato, sans-serif;
+  margin-top: 10px;
 }
-h1{
-  color: black;
+
+h1 {
+  color: rgb(255, 255, 255);
   font-size: 25px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Belanosima', sans-serif;
   text-align: center;
-  margin: 20px 0;
+  margin: 15px;
 }
-.aplicacion-tareas{
+
+.aplicacion-tareas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.free-code-camp-logo-contenedor {
+
+.notepad-logo-contenedor {
   width: 100%;
-  margin: 20px;
+  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.free-code-camp-logo{
-  width: 400px;
-  height: 50px;
+
+.notepad-logo {
+  width: 30px;
+  max-width: 400px;
+  height: auto;
 }
 
-.tareas-lista-principal{
-  width: 600x;
+.tareas-lista-principal {
+  width: 100%;
+  max-width: 550px;
   height: auto;
-  min-height: 500px;
+  min-height: 30px;
   background-color: gainsboro;
   padding: 25px;
   margin: 10px;
   border-radius: 25px;
+  
 }
